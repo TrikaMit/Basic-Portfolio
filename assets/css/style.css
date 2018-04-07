@@ -78,6 +78,7 @@ div {
     width: 960px;
     margin: auto;
     margin-top: 30px;
+    margin-bottom: 40px;
     line-height: 25px;
 }
 .line {
@@ -90,7 +91,14 @@ div {
 img.me {
     float:left;
     margin: 20px 20px 15px 0px;
-}   
+}
+.clearfix:after { 
+    content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+}       
 #form {
     width: 860px;
 }
@@ -98,24 +106,82 @@ img.me {
     height: 200px;
     width: 860px;
 }
-div.portfolio {
-    float: left
-}
-figure {
+
+.one,
+.two {
     float: left;
     background: white;
     width: 50%;
     position: relative;
 }
+
+.clearfix:after { 
+    content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+}
+.three,
+.four {
+    float: left;
+    background: white;
+    width: 50%;
+    position: relative;
+}
+
+.clearfix:after { 
+    content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+}
+
+.five{
+    float: left;
+    background: white;
+    width: 50%;
+    position: relative;
+}
+
+.clearfix:after { 
+    content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+}
+
 figcaption {
     position: absolute;
     bottom: 7px;
     height: 30px;
     background: #4aaaa5;
+    color: white;
     padding-left: 25%;
     padding-right: 25%;
 
 }
+
+.footer {
+    height: 50px;
+    width: 100%;
+    background: #666;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+
+}
+.footer2 {
+    height: 10px;
+    width: 100%;
+    background: #4aaaa5;
+    position: fixed;
+    bottom: 50px;
+    left:0px;
+}
+  
 
 
  
