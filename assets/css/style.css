@@ -91,8 +91,33 @@ img.me {
     float:left;
     margin: 20px 20px 15px 0px;
 }   
+#form {
+    width: 860px;
+}
+#form-comment {
+    height: 200px;
+    width: 860px;
+}
+div.portfolio {
+    float: left
+}
+figure {
+    float: left;
+    background: white;
+    width: 50%;
+    position: relative;
+}
+figcaption {
+    position: absolute;
+    bottom: 7px;
+    height: 30px;
+    background: #4aaaa5;
+    padding-left: 25%;
+    padding-right: 25%;
 
-    
+}
+
+
  
 
  
